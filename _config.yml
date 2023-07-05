@@ -1,3 +1,36 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+# _config.yml
+
+title: Your Academic Webpage
+description: A description of your academic work.
+
+# Build settings
+markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
+# Theme settings
+theme: minima
+
+# Additional settings
+author:
+  name: Your Name
+  bio: A brief bio about yourself.
+  avatar: /assets/avatar.png
+
+# Navigation links
+nav_links:
+  - title: Home
+    url: /
+  - title: Publications
+    url: /publications
+  - title: CV
+    url: /cv
+
+# Social media links
+social:
+  - title: Twitter
+    url: https://twitter.com/yourusername
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/yourprofile
