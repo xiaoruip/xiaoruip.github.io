@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Personal Webpage</title>
+  <title>Dr. John Doe - Ph.D.</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -14,49 +14,87 @@
       padding: 20px;
       text-align: center;
     }
-    main {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 0 20px;
-    }
     h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
       color: #333;
-      text-align: center;
+      padding: 5px;
     }
-    p {
-      line-height: 1.5;
-      text-align: justify;
+    main {
+      margin: 20px;
     }
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
+    h2 {
+      color: #333;
+      border-bottom: 1px solid #ccc;
+    }
+    .photo {
+      display: inline-block;
+      width: 200px;
+      margin: 10px;
+    }
+    .photo img {
+      width: 100%;
+      border-radius: 50%;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to My Personal Webpage</h1>
+    <h1>Dr. John Doe - Ph.D.</h1>
   </header>
-  <main>
-    <h2>About Me</h2>
-    <p>
-      Insert a brief description about yourself here. Talk about your interests, skills, or any other relevant information.
-    </p>
-    <h2>My Projects</h2>
+  <nav>
     <ul>
-      <li><a href="#">Project 1</a></li>
-      <li><a href="#">Project 2</a></li>
-      <li><a href="#">Project 3</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-    <h2>Contact Me</h2>
-    <p>
-      You can reach me at <a href="mailto:your-email@example.com">your-email@example.com</a>.
-    </p>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Write a brief description of yourself and your academic achievements here.</p>
+    </section>
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li>Publication 1</li>
+        <li>Publication 2</li>
+        <li>Publication 3</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: john.doe@example.com</p>
+      <p>Phone: (123) 456-7890</p>
+    </section>
+    <section>
+      <h2>Photos</h2>
+      <div class="photo">
+        <img src="photo1.jpg" alt="Photo 1">
+      </div>
+      <div class="photo">
+        <img src="photo2.jpg" alt="Photo 2">
+      </div>
+      <div class="photo">
+        <img src="photo3.jpg" alt="Photo 3">
+      </div>
+    </section>
   </main>
-  <footer>
-    &copy; 2023 My Personal Webpage. All rights reserved.
-  </footer>
 </body>
 </html>
